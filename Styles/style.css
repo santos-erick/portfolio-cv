@@ -266,6 +266,10 @@ img {
     .cabecalho__menu{
         gap: 55px;
     }
+
+    img {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 425px) {

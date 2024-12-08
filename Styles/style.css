@@ -267,9 +267,8 @@ img {
         gap: 55px;
     }
 
-    img {
-        width: 17rem;
-      
+    .apresentacao__imagem__about {
+        width: auto;
     }
 
 }

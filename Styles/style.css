@@ -268,7 +268,8 @@ img {
     }
 
     .apresentacao__imagem__about {
-        width: 17rem;
+        width: 300px;
+        height: 300px;
     }
 
 }

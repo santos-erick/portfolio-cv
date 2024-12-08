@@ -268,10 +268,10 @@ img {
     }
 
     img {
-        width: 100%;
-        height: auto;
+        width: auto;
       
     }
+
 }
 
 @media screen and (max-width: 425px) {

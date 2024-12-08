@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 :root {
     --cor--primaria: #000000;
     --cor--secundaria: #f6f6ff;
-    --cor--terciaria: #3d0a66;
+    --cor--terciaria: #602094;
     --cor--hover: #272727;
 
     --fonte--primaria: "Rajdhani", sans-serif; 
@@ -81,6 +80,12 @@ body img:hover{
     width: 35%;
     border-radius: 30%;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 
 .apresentacao {
     padding: 5% 15%;
@@ -226,6 +231,15 @@ body img:hover{
     }
 }
 
+@media screen and (max-width: 900px) {
+    .apresentacao__about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+
 @media screen and (max-width: 768px) {
     .cabecalho {
         height: 35px;
@@ -245,6 +259,12 @@ body img:hover{
 
     .apresentacao__conteudo__texto{
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .cabecalho__menu{
+        gap: 55px;
     }
 }
 
@@ -290,6 +310,12 @@ body img:hover{
     .apresentacao__conteudo__texto__about{
         font-size: 1.3rem;
     }
+
+    .apresentacao__about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
 
 }
 

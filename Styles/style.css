@@ -269,7 +269,7 @@ img {
 
     .apresentacao__imagem__about {
         width: 300px;
-        height: 350px;
+        height: auto;
     }
 
 }
